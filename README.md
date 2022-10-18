@@ -1,61 +1,45 @@
-# :space_invader: React Native Template TypeScript
+# 🚀 React Native Template TypeScript CosmJS
 
 <p>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/actions/workflows/npm-publish.yml">
+  <a href="https://github.com/nabla-studio/react-native-template-typescript-cosmjs/actions/workflows/npm-publish.yml">
     <img alt="Build Status" src="https://github.com/react-native-community/react-native-template-typescript/actions/workflows/npm-publish.yml/badge.svg" />
   </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript#readme">
+  <a href="https://github.com/nabla-studio/react-native-template-typescript-cosmjs#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/graphs/commit-activity">
+  <a href="https://github.com/nabla-studio/react-native-template-typescript-cosmjs/graphs/commit-activity">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/blob/master/LICENSE">
+  <a href="https://github.com/nabla-studio/react-native-template-typescript-cosmjs/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
-> Clean and minimalist React Native template for a quick start with TypeScript.
+> React Native template for a quick start with TypeScript and CosmJS.
 
-## :star: Features
+This template is based on:
+
+- [React Native Template Typescript](https://github.com/react-native-community/react-native-template-typescript)
+- [CosmJS](https://github.com/cosmos/cosmjs)
+
+We made this repo to solve the following issue:
+
+- [CosmJS incompatibility with ES2018](https://github.com/cosmos/cosmjs/issues/1144)
+
+## ⭐ Features
 
 - Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
 - Consistent with the default React Native template
 - Minimal additional dependencies
+- Default setup for CosmJS compatibility
 
-## :arrow_forward: Usage
-
-```sh
-npx react-native init MyApp --template react-native-template-typescript
-```
-
-### Usage with older versions of React Native
-
-#### e.g. `react-native@0.69.x`
+## ⚙️ Usage
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript@6.11.9
+npx react-native init MyApp --template https://github.com/nabla-studio/react-native-template-typescript-cosmjs
 ```
 
-See the below table to find out which version of the template to use.
-
-#### React Native <=> Template Version
-
-| React Native | Template |
-| ------------ | -------- |
-| 0.70         | 6.12.\*  |
-| 0.69         | 6.11.\*  |
-| 0.68         | 6.10.\*  |
-| 0.67         | 6.9.\*   |
-| 0.66         | 6.8.\*   |
-| 0.65         | 6.7.\*   |
-| 0.64         | 6.6.\*   |
-| 0.63         | 6.5.\*   |
-| 0.62         | 6.4.\*   |
-| 0.61         | 6.3.\*   |
-| 0.60         | 6.2.\*   |
-
-## :warning: React Native CLI
+## ⚠️ React Native CLI
 
 This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`) for the below command to work. If you wish to not use `npx`, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
 
@@ -63,10 +47,16 @@ If you tried the above and still get the react-native-template-react- native-tem
 
 Further information can be found here: https://github.com/react-native-community/cli#about
 
-## :computer: Contributing
+## 💻 Contributing
 
 Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).
 
-## :bookmark: License
+## 🆘 Support
 
-This project is [MIT](LICENSE) licensed.
+For support or suggestions, you can create a new [issue](https://github.com/nabla-studio/react-native-template-typescript-cosmjs/issues)
+
+## 🔏 License
+
+Copyright © 2022 [nabla](https://github.com/nabla-studio)
+
+This project is licensed by [MIT License](LICENSE).
