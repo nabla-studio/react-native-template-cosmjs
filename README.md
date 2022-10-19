@@ -27,6 +27,11 @@ This was made possible thanks to the 0.70.0 release of React Native, which solve
 
 - [React Native 0.70.0 CHANGELOG](https://github.com/facebook/react-native/blob/main/CHANGELOG.md#0700)
 
+## ✅ Requirements
+
+- React Native >= 0.70.0
+- Ruby >= 3.1.0
+
 ## ⭐ Features
 
 - Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
@@ -55,6 +60,10 @@ Contributions are very welcome. Please check out the [contributing document](CON
 ## 🆘 Support
 
 For support or suggestions, you can create a new [issue](https://github.com/nabla-studio/react-native-template-cosmjs/issues)
+
+## 🧪 Tests
+
+The template was tested on `macOS Monterey 12.2.1` and on `MacBook pro (13-inch, M1, 2020)`.
 
 ## 🔏 License
 
