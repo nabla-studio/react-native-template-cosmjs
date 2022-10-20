@@ -65,6 +65,11 @@ For support or suggestions, you can create a new [issue](https://github.com/nabl
 
 The template was tested on `macOS Monterey 12.2.1` and on `MacBook pro (13-inch, M1, 2020)`.
 
+Versions of iOS tested:
+
+- 15.4
+- 14.0.1
+
 ## 🔏 License
 
 Copyright © 2022 [nabla](https://github.com/nabla-studio)
