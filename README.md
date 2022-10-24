@@ -42,8 +42,56 @@ This was made possible thanks to the 0.70.0 release of React Native, which solve
 
 ## ⚙️ Usage
 
-```sh
+1. Use RN CLI and clone the project
+
+```bash
 npx react-native init MyApp --template https://github.com/nabla-studio/react-native-template-cosmjs
+```
+
+2. Go to the project directory
+
+```bash
+  cd MyApp
+```
+
+3. Install dependencies
+
+```bash
+  yarn setup
+```
+
+4. a. Start the iOS server
+
+```bash
+  yarn ios
+```
+
+4. b. Start the Android server
+
+```bash
+  yarn android
+```
+
+### iOS Note
+
+On macOS you may encounter some problems for the iOS build, to fix it follow the steps below:
+
+1. Go to iOS directory
+
+```bash
+  cd ios
+```
+
+2. Deintegrate pod installation
+
+```bash
+  pod deintegrate
+```
+
+3. Reinstall pod dependencies
+
+```bash
+  pod install
 ```
 
 ## ⚠️ React Native CLI
@@ -64,10 +112,14 @@ For support or suggestions, you can create a new [issue](https://github.com/nabl
 
 ## 🧪 Tests
 
-The template was tested on `macOS Monterey 12.2.1` and on `MacBook pro (13-inch, M1, 2020)`.
+The template was tested on:
+
+- MacBook pro (13-inch, M1, 2020) - macOS Monterey 12.2.1
+- MacBook pro (13-inch, M1, 2020) - macOS Monterey 12.6
 
 Versions of iOS tested:
 
+- 16.0
 - 15.4
 - 14.0.1
 
