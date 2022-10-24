@@ -31,6 +31,7 @@ This was made possible thanks to the 0.70.0 release of React Native, which solve
 
 - React Native >= 0.70.0
 - Ruby >= 3.1.0
+- Gradle >= 7.5.1
 
 ## ⭐ Features
 
@@ -69,6 +70,10 @@ Versions of iOS tested:
 
 - 15.4
 - 14.0.1
+
+Version of Android tested:
+
+- API 33
 
 ## 🔏 License
 
